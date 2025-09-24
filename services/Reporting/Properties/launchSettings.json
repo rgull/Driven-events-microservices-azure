@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Finyx.Reporting": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:59953;http://localhost:59957"
+    }
+  }
+}

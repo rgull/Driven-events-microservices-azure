@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AzureFunctionsVersion>v4</AzureFunctionsVersion>
+		<OutputType>Exe</OutputType>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.18.0" />
+		<PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.16.4" />
+		<PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.1.0" />
+		<PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.CosmosDB" Version="3.0.9" />
+		<PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.ServiceBus" Version="5.4.0" />
+		<PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.EventGrid" Version="3.2.0" />
+		<PackageReference Include="Microsoft.Azure.WebJobs.Extensions.OpenApi" Version="1.4.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Identity.Web" Version="2.15.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<!-- Project references will be added when the projects are implemented -->
+		<!-- <ProjectReference Include="..\Finyx.Shared\Finyx.Shared.csproj" />
+<ProjectReference Include="..\Finyx.Core\Finyx.Core.csproj" /> -->
+	</ItemGroup>
+</Project>
